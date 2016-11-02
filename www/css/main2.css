@@ -14,7 +14,7 @@ div.content{
     width: 100%;
     height: 100%;
     padding: 5px;
-    background-color: rgba(220, 220, 220, 0.89);
+    background-color: rgba(220, 220, 220, 0.71);
     display: flex;
     align-items: center;
     font-size: 15px;
@@ -53,4 +53,10 @@ div.navbar-right.col-sm-4.right{
 }
 div#footerMainLogo.navbar-left{
     padding: 10px;
+}
+div#footerMainLogo.navbar-left img{
+    padding: 1px;
+}
+div.col-sm-8{
+    padding: 5px;
 }

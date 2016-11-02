@@ -1,7 +1,7 @@
 {block content}
 
 <body>
-<!-- MENU -->
+    <!-- MENU -->
     <nav class="navbar navbar-default">
         <div class="container-fluid">
             <div class="navbar-header">
@@ -22,11 +22,11 @@
             </ul>     
         </div>
     </nav>
-<!-- CONTENT -->
+    <!-- CONTENT -->
     <div class="container-fluid" id="content">
         <div class="row" >
             <div class="content pagination-centered">
-                <div class="col-sm-10" style="align-text: center;"> 
+                <div class="col-sm-10" style="align-text: center; left: 5%; padding: 5px;"> 
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut interdum velit. Fusce tempor dignissim augue ut pretium. Duis lacinia venenatis eros, eu aliquam tortor tincidunt vel. In placerat nec lectus eget rhoncus. Vivamus sit amet augue ornare tellus volutpat semper. Nunc molestie tellus ut diam porta tincidunt. Morbi sit amet varius urna, at egestas est. Quisque eget orci congue, maximus erat sit amet, vehicula diam. Nulla eget arcu ut enim sagittis sollicitudin eu at lorem. Sed laoreet dolor in urna varius tincidunt. Nullam fringilla placerat felis sit amet molestie. Maecenas a tortor eu sapien varius luctus eu in felis. Praesent blandit erat neque, in semper quam ullamcorper at. In hac habitasse platea dictumst. Curabitur eu semper urna.
                         Curabitur a nulla sed nibh tincidunt laoreet ac quis dolor. Sed venenatis diam sem, eget ultricies eros tempor sit amet. Suspendisse vel tincidunt dolor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla dictum convallis placerat. Duis ullamcorper velit imperdiet mauris porta tincidunt. Fusce turpis libero, mollis quis accumsan at, ornare non felis. Duis justo augue, facilisis vitae ultrices sed, auctor id tellus. Pellentesque et tincidunt purus, eget commodo quam. Vestibulum facilisis felis at nibh sagittis porttitor. Praesent sed velit varius, porttitor justo in, scelerisque leo. Donec molestie eros at mi viverra ultrices.
@@ -67,15 +67,19 @@
             </div>
         </div>
     </div>
-<!-- FOOTER -->
+    <!-- FOOTER -->
     <nav class="navbar navbar-default navbar-bottom" id="footer" role="navigation">
         <div class="container">
             <div class="col-sm-4">
-                <div class="navbar-left" id="footerMainLogo">
-                    <a href="#"><img src="{$basePath}/images/lusorion.png"></a>
+                <div class="col-sm-4">
+                    <div class="navbar-left" id="footerMainLogo">
+                        <a href="#"><img src="{$basePath}/images/lusorion.png"></a>
+                    </div>
                 </div>
+                <div class="col-sm-8" style="padding: 5px;">    
                 <p><a href="#">CAREERS</a> | <a href="#">TEAM</a> | <a href="#" target="_blank">EULA</a> | <a href="#">FAQ</a></p>
                 <p id="copyright">  &copy;2015 Lusorion Creatives. All rights reserved.<br> All trademarks are the property of their respective owners.</p>  
+                </div>
             </div>
             <div class="col-sm-4">
             </div>
@@ -88,10 +92,10 @@
             </div>
         </div>
     </nav>
-                
-{/block}
-{block scripts}
-{include parent}
-{/block}
+
+    {/block}
+    {block scripts}
+    {include parent}
+    {/block}
 
 
