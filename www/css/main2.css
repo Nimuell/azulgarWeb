@@ -1,0 +1,62 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+   
+}
+.container-fluid#content{
+    background-image: url("http://localhost/azulgarweb/www/images/magBG.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+div.content{
+
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    background-color: rgba(220, 220, 220, 0.71);
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px #888888;
+}
+
+div.row{
+     padding-top: 20px;
+    padding-left: 10%;
+    padding-bottom: 5%;
+    width: 90%;
+}
+nav.navbar.navbar-default{
+    margin-bottom: 0px;
+}
+nav#footer .container{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 90px;
+  background-color: grey;
+  display: block;
+}
+nav#footer.navbar.navbar-default.navbar-bottom{
+    border: 0px;
+}
+div.navbar-right.col-sm-4.right{
+    left: 10%;
+    padding-top: 5px;
+}
+#copyright{
+    color: black;
+    font-size: 11px;
+    display: block;
+}
+div#footerMainLogo.navbar-left{
+    padding: 10px;
+}
+div#footerMainLogo.navbar-left img{
+    padding: 1px;
+}
+div.col-sm-8{
+    padding: 5px;
+}

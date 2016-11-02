@@ -1,0 +1,46 @@
+#contactContainer{width:100%;min-height:440px;background: url("//<?php echo Environment::$BasePath; ?>/stuff/img/contact.png") no-repeat black;padding-left:70px;padding-top:10px;padding-bottom:30px;}
+div#contactContainer>div#header{color:orange;font-family: 'Titillium Web', sans-serif;font-size: 30px;}      
+div#contactContainer>div#sorry{color:white;font-family: 'Titillium Web', sans-serif;font-size: 16px;}    
+div#contactContainer>span>h3{color:orange;font-family: 'Titillium Web', sans-serif;font-size: 20px;} 
+span#creators, span#thanks, span#adress{display:inline-block;float:left;margin: 0 15px; float:left;}
+.maker>.name{display:inline-block;color:white;font-family: 'Titillium Web', sans-serif;font-size: 15px;width:170px;} 
+.maker>.position{display:inline-block;color:#939393;font-family: 'Titillium Web', sans-serif;font-size: 15px;} 
+span#adress>p{color:white;font-family: Verdana, Geneva, sans-serif;font-size: 15px;width:190px;} 
+
+/*Footer!*/     
+#footerContainer{width:100%;background: rgb(40,24,23);}
+#footerDiclaimer{display:inline-block; float:left;color:white;padding: 35px;font-size: 15px; font-family: 'Titillium Web', sans-serif; }
+#footerMainLogo{display:inline-block; float:left; padding: 15px;}
+#footerLogos{display:inline-block;float:right;}
+#footerLogos>a>img{display:inline-block;padding: 20px;}  
+select{
+    background: rgba(40,24,03,1); 
+    color:white;
+    border:0px;
+    outline:0px;
+}
+select option {
+    background-color: rgba(255,255,255,.0);
+    color:white;
+    border:0px;
+    outline:0px;
+}
+/* unvisited link */
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: white;
+}
+
+/* selected link */
+a:active {
+    color: white;
+}

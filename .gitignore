@@ -1,2 +1,5 @@
 /nbproject/private/
 /vendor/
+/temp/cache/Nette.Configurator/
+/temp/cache/_Nette.RobotLoader/
+/temp/cache/latte/

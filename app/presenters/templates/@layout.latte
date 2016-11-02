@@ -14,19 +14,21 @@
             <meta name="robots" content="all">
             <meta name="description" content="Scifi strategic space game with modular builder set into deep universe.">
             <meta name="keywords" content="scifi,game,space,universe,action,strategy,ships">
-            <link rel="stylesheet" href= "{$basePath}/css/desktop.css"> 
-            <script type='text/javascript' src="http://code.jquery.com/jquery-1.9.1.js"></script>
-            <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+            <!-- css import -->
+
+            <link rel="stylesheet" href= "{$basePath}/css/main2.css"> 
+   
+            <link rel="stylesheet" href= "{$basePath}/css/footer.css">
+            <link rel="stylesheet" href= "{$basePath}/css/bootstrap-theme.min.css"> 
+            <link rel="stylesheet" href= "{$basePath}/css/bootstrap.min.css"> 
             <title>Azulgar | v 2.0</title>
         </head>
-
-
-            {include content}
-
-            {block scripts}
-            <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-            <script src="https://nette.github.io/resources/js/netteForms.min.js"></script>
-            <script src="{$basePath}/js/main.js"></script>
-            {/block}
-        </body>
-    </html>
+        {include content}
+        {block scripts}
+        <script type='text/javascript' src="http://code.jquery.com/jquery-1.9.1.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+        <script src="https://nette.github.io/resources/js/netteForms.min.js"></script>
+        <script src="{$basePath}/js/main.js"></script>
+        {/block}
+    </body>
+</html>
