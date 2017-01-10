@@ -7,3 +7,8 @@ database:
 	password: 'LC123456lc'
 	options:
 		lazy: yes
+
+doctrine:
+    user: root
+    password:
+    dbname: doctrine_devel

@@ -1,4 +1,29 @@
 {block content}
+<!--
+<h3>Využité klíče</h3>
+<hr>
+{foreach $tbl_key as $data}
+	{if $data->used_by  > 0}
+		{foreach $tbl_user as $usr}
+			{if $usr->id == $data->used_by}
+				<p style="color: red";>{$data->t_key} - {$usr->e_mail}</p>
+			{/if}
+		{/foreach}
+	{/if}
+{/foreach}
+
+<h3>Volné klíče</h3>
+<hr>
+{foreach $tbl_key as $data}
+	{if $data->used_by == 0}
+		<p style="color: green";>{$data->t_key}</p>
+	{/if}
+{/foreach}
+
+
+-->
+
+
 
 <body>
     <!-- MENU -->
@@ -11,22 +36,22 @@
                 <li class="active"><a href="#">Homepage</a></li>
                 <li><a href="#">Features</a></li>
                 <li><a href="#">Lore</a></li>
-                <li><a href="#">Media</a></li> 
-                <li><a href="#">Roadmap</a></li> 
+                <li><a href="#">Media</a></li>
+                <li><a href="#">Roadmap</a></li>
                 <li><a href="#">Community</a></li>
-                <li><a href="#">Store</a></li> 
+                <li><a href="#">Store</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>	
-            </ul>     
+                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            </ul>
         </div>
     </nav>
     <!-- CONTENT -->
     <div class="container-fluid" id="content">
         <div class="row" >
             <div class="content pagination-centered">
-                <div class="col-sm-10" style="align-text: center; left: 5%; padding: 5px;"> 
+                <div class="col-sm-10" style="align-text: center; left: 5%; padding: 5px;">
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut interdum velit. Fusce tempor dignissim augue ut pretium. Duis lacinia venenatis eros, eu aliquam tortor tincidunt vel. In placerat nec lectus eget rhoncus. Vivamus sit amet augue ornare tellus volutpat semper. Nunc molestie tellus ut diam porta tincidunt. Morbi sit amet varius urna, at egestas est. Quisque eget orci congue, maximus erat sit amet, vehicula diam. Nulla eget arcu ut enim sagittis sollicitudin eu at lorem. Sed laoreet dolor in urna varius tincidunt. Nullam fringilla placerat felis sit amet molestie. Maecenas a tortor eu sapien varius luctus eu in felis. Praesent blandit erat neque, in semper quam ullamcorper at. In hac habitasse platea dictumst. Curabitur eu semper urna.
                         Curabitur a nulla sed nibh tincidunt laoreet ac quis dolor. Sed venenatis diam sem, eget ultricies eros tempor sit amet. Suspendisse vel tincidunt dolor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla dictum convallis placerat. Duis ullamcorper velit imperdiet mauris porta tincidunt. Fusce turpis libero, mollis quis accumsan at, ornare non felis. Duis justo augue, facilisis vitae ultrices sed, auctor id tellus. Pellentesque et tincidunt purus, eget commodo quam. Vestibulum facilisis felis at nibh sagittis porttitor. Praesent sed velit varius, porttitor justo in, scelerisque leo. Donec molestie eros at mi viverra ultrices.
@@ -50,7 +75,7 @@
                         Sed pellentesque tincidunt nisi, sodales rhoncus nisl condimentum pellentesque. Pellentesque ultricies ullamcorper laoreet. Sed pharetra tellus dui, nec posuere libero tincidunt non. Praesent ut consequat leo. Vestibulum elementum, lectus at convallis vestibulum, ante felis tincidunt magna, a imperdiet urna felis eu ante. Praesent sed fermentum ipsum. Suspendisse sed neque leo. Curabitur viverra dui in risus pulvinar imperdiet. Donec sed tellus sed arcu auctor feugiat pulvinar ultrices augue.
                         Fusce mi justo, gravida at maximus vel, posuere ac ex. Fusce euismod neque eleifend metus condimentum tincidunt. Donec suscipit mi odio, egestas tempor ligula aliquet eget. Sed et lobortis magna. Pellentesque a sapien enim. Duis libero risus, condimentum vel felis at, suscipit consectetur lorem. Nullam lacinia varius mauris id elementum. Morbi fermentum sodales metus, et placerat tellus malesuada non. Vestibulum eleifend augue in iaculis consequat. Mauris rhoncus, nunc ac luctus vestibulum, enim massa placerat turpis, a hendrerit metus justo non ipsum. Aliquam dignissim hendrerit velit, sit amet fermentum sem varius sit amet. Suspendisse bibendum sit amet enim ac mattis.
                         Donec tempus, ligula a tempus fringilla, augue nunc condimentum ex, eget pretium tortor velit vitae lorem. Suspendisse viverra ultricies lorem in cursus. Duis viverra magna eu est rhoncus, non porta nunc varius. Ut porttitor tellus et sem luctus mollis. In eget pharetra metus. Cras consectetur arcu sed pulvinar consequat. Vivamus vel maximus nunc, nec tincidunt nisi. Cras tristique ac odio vitae finibus. Sed et ullamcorper risus. Mauris sollicitudin lectus at dui molestie, at sagittis erat sollicitudin. Praesent nec justo malesuada, aliquet massa id, dapibus dolor. Vestibulum egestas congue aliquam. Pellentesque sit amet purus turpis. Morbi ultrices sem nulla, consequat fermentum orci egestas non. Sed cursus dolor elit, ut eleifend dui malesuada eu. Aliquam molestie sapien at condimentum tristique.
-                    </p>  
+                    </p>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut interdum velit. Fusce tempor dignissim augue ut pretium. Duis lacinia venenatis eros, eu aliquam tortor tincidunt vel. In placerat nec lectus eget rhoncus. Vivamus sit amet augue ornare tellus volutpat semper. Nunc molestie tellus ut diam porta tincidunt. Morbi sit amet varius urna, at egestas est. Quisque eget orci congue, maximus erat sit amet, vehicula diam. Nulla eget arcu ut enim sagittis sollicitudin eu at lorem. Sed laoreet dolor in urna varius tincidunt. Nullam fringilla placerat felis sit amet molestie. Maecenas a tortor eu sapien varius luctus eu in felis. Praesent blandit erat neque, in semper quam ullamcorper at. In hac habitasse platea dictumst. Curabitur eu semper urna.
                         Curabitur a nulla sed nibh tincidunt laoreet ac quis dolor. Sed venenatis diam sem, eget ultricies eros tempor sit amet. Suspendisse vel tincidunt dolor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla dictum convallis placerat. Duis ullamcorper velit imperdiet mauris porta tincidunt. Fusce turpis libero, mollis quis accumsan at, ornare non felis. Duis justo augue, facilisis vitae ultrices sed, auctor id tellus. Pellentesque et tincidunt purus, eget commodo quam. Vestibulum facilisis felis at nibh sagittis porttitor. Praesent sed velit varius, porttitor justo in, scelerisque leo. Donec molestie eros at mi viverra ultrices.
@@ -62,7 +87,7 @@
                         Sed pellentesque tincidunt nisi, sodales rhoncus nisl condimentum pellentesque. Pellentesque ultricies ullamcorper laoreet. Sed pharetra tellus dui, nec posuere libero tincidunt non. Praesent ut consequat leo. Vestibulum elementum, lectus at convallis vestibulum, ante felis tincidunt magna, a imperdiet urna felis eu ante. Praesent sed fermentum ipsum. Suspendisse sed neque leo. Curabitur viverra dui in risus pulvinar imperdiet. Donec sed tellus sed arcu auctor feugiat pulvinar ultrices augue.
                         Fusce mi justo, gravida at maximus vel, posuere ac ex. Fusce euismod neque eleifend metus condimentum tincidunt. Donec suscipit mi odio, egestas tempor ligula aliquet eget. Sed et lobortis magna. Pellentesque a sapien enim. Duis libero risus, condimentum vel felis at, suscipit consectetur lorem. Nullam lacinia varius mauris id elementum. Morbi fermentum sodales metus, et placerat tellus malesuada non. Vestibulum eleifend augue in iaculis consequat. Mauris rhoncus, nunc ac luctus vestibulum, enim massa placerat turpis, a hendrerit metus justo non ipsum. Aliquam dignissim hendrerit velit, sit amet fermentum sem varius sit amet. Suspendisse bibendum sit amet enim ac mattis.
                         Donec tempus, ligula a tempus fringilla, augue nunc condimentum ex, eget pretium tortor velit vitae lorem. Suspendisse viverra ultricies lorem in cursus. Duis viverra magna eu est rhoncus, non porta nunc varius. Ut porttitor tellus et sem luctus mollis. In eget pharetra metus. Cras consectetur arcu sed pulvinar consequat. Vivamus vel maximus nunc, nec tincidunt nisi. Cras tristique ac odio vitae finibus. Sed et ullamcorper risus. Mauris sollicitudin lectus at dui molestie, at sagittis erat sollicitudin. Praesent nec justo malesuada, aliquet massa id, dapibus dolor. Vestibulum egestas congue aliquam. Pellentesque sit amet purus turpis. Morbi ultrices sem nulla, consequat fermentum orci egestas non. Sed cursus dolor elit, ut eleifend dui malesuada eu. Aliquam molestie sapien at condimentum tristique.
-                    </p> 
+                    </p>
                 </div>
             </div>
         </div>
@@ -76,9 +101,9 @@
                         <a href="#"><img src="{$basePath}/images/lusorion.png"></a>
                     </div>
                 </div>
-                <div class="col-sm-8" style="padding: 5px;">    
+                <div class="col-sm-8" style="padding: 5px;">
                 <p><a href="#">CAREERS</a> | <a href="#">TEAM</a> | <a href="#" target="_blank">EULA</a> | <a href="#">FAQ</a></p>
-                <p id="copyright">  &copy;2015 Lusorion Creatives. All rights reserved.<br> All trademarks are the property of their respective owners.</p>  
+                <p id="copyright">  &copy;2015 Lusorion Creatives. All rights reserved.<br> All trademarks are the property of their respective owners.</p>
                 </div>
             </div>
             <div class="col-sm-4">
@@ -88,7 +113,7 @@
                     <img src="http://www.pegi.info/en/index/id/33/media/img/321.gif">
                     <img src="http://www.pegi.info/cs/index/img/descriptors/violence.gif">
                     <img src="http://www.pegi.info/en/index/id/33/media/img/274.gif">
-                </p>  
+                </p>
             </div>
         </div>
     </nav>

@@ -21,3 +21,16 @@ services:
 	- App\Forms\SignInFormFactory
 	- App\Forms\SignUpFormFactory
 	router: App\RouterFactory::createRouter
+
+extensions:
+    console: Kdyby\Console\DI\ConsoleExtension
+    events: Kdyby\Events\DI\EventsExtension
+    annotations: Kdyby\Annotations\DI\AnnotationsExtension
+    doctrine: Kdyby\Doctrine\DI\OrmExtension
+
+doctrine:
+    user: doctrine
+    password: '***'
+    dbname: doctrine_online
+    metadata:
+        App: %appDir%
