@@ -1,5 +1,6 @@
 # Legends of Azulgar web server
 
+<a href="https://travis-ci.org/Nimuell/azulgarWeb"><img src="https://travis-ci.org/Nimuell/azulgarWeb.svg?branch=master"></a>
 
 Features:
 
@@ -19,7 +20,6 @@ Features:
 //// NOPE! ////
 
 ```
-
 
 
 ### Todos
