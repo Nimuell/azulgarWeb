@@ -27,4 +27,9 @@ class TblKey
 	 * @ORM\Column(type="integer")
 	 */
 	protected $used_by;
+
+	/**
+	 * @ORM\Column(type="integer")
+	 */
+	protected $keyGroup;
 }

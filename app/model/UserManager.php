@@ -4,7 +4,13 @@ namespace App\Model;
 
 use Nette;
 use Nette\Security\Passwords;
-
+use Nette\Utils\Random;
+use Nette\Utils\Strings;
+use App\TblKeyGroup;
+use App\TblUser;
+use App\TblKey;
+use Doctrine\ORM\EntityManager;
+use Tracy\Debugger;
 
 /**
  * Users management.

@@ -10,7 +10,6 @@ use Kdyby\Doctrine\Entities\MagicAccessors;
  */
 class TblUser
 {
-
 	use MagicAccessors;
 	/**
 	 * @ORM\Id
@@ -30,6 +29,11 @@ class TblUser
 	protected $password;
 
 	/**
+	 * @ORM\Column(type="integer")
+	 */
+	protected $permissions;
+
+	/**
 	 * @ORM\Column(type="datetime")
 	 */
 	protected $created;
@@ -39,4 +43,13 @@ class TblUser
 	 */
 	protected $machine;
 
+	/**
+	 * @ORM\Column(type="string", unique=true)
+	 */
+	protected $steamAuth;
+
+	/**
+	 * @ORM\Column(type="string", unique=true)
+	 */
+	protected $nickname;
 }

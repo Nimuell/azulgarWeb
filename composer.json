@@ -1,19 +1,10 @@
 {
-	"name": "nette/sandbox",
-	"description": "The sandbox is a pre-packaged Nette Framework project, basic configured structure for your application.",
-	"homepage": "https://nette.org",
+	"name": "AzulgarWeb",
+	"description": "users section, blog section, activation/steam auth section",
+	"homepage": "http://azulgar.com",
 	"type": "project",
 	"license": ["BSD-3-Clause", "GPL-2.0", "GPL-3.0"],
-	"authors": [
-		{
-			"name": "David Grudl",
-			"homepage": "https://davidgrudl.com"
-		},
-		{
-			"name": "Nette Community",
-			"homepage": "https://nette.org/contributors"
-		}
-	],
+	"authors": [{"name": "Martin Ferst"}],
 	"require": {
 		"php": ">=5.6.0",
 		"nette/application": "^2.4",
@@ -31,8 +22,9 @@
 		"nette/utils": "^2.4",
 		"latte/latte": "^2.4",
 		"tracy/tracy": "^2.4",
-		"dg/adminer-custom": "^1.6"
-		"kdyby/doctrine": "^3.1"
+		"dg/adminer-custom": "^1.6",
+		"kdyby/doctrine": "^3.1",
+		"kdyby/console": "^2.6"
 	},
 	"require-dev": {
 		"nette/tester": "^1.6"

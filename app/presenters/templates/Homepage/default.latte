@@ -2,23 +2,23 @@
 <!--
 <h3>Využité klíče</h3>
 <hr>
-{foreach $tbl_key as $data}
-	{if $data->used_by  > 0}
-		{foreach $tbl_user as $usr}
-			{if $usr->id == $data->used_by}
-				<p style="color: red";>{$data->t_key} - {$usr->e_mail}</p>
-			{/if}
-		{/foreach}
-	{/if}
-{/foreach}
+{ foreach $tbl_key as $data}
+	{ if $data->used_by  > 0}
+		{ foreach $tbl_user as $usr}
+			{ if $usr->id == $data->used_by}
+				<p style="color: red";>{ $data->t_key} - { $usr->e_mail}</p>
+			{ /if}
+		{ /foreach}
+	{ /if}
+{ /foreach}
 
 <h3>Volné klíče</h3>
 <hr>
-{foreach $tbl_key as $data}
-	{if $data->used_by == 0}
-		<p style="color: green";>{$data->t_key}</p>
-	{/if}
-{/foreach}
+{ foreach $tbl_key as $data}
+	{ if $data->used_by == 0}
+		<p style="color: green";>{ $data->t_key}</p>
+	{ /if}
+{ /foreach}
 
 
 -->
