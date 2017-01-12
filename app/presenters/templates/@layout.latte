@@ -10,25 +10,26 @@
             <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
             <meta http-equiv="Content-Language" content="cs" />
             <meta http-equiv="content-Style-Type" content="text/css" />
+            <meta http-equiv="cache-control" content="public">
+            <meta http-equiv="cache-control" content="max-age=604800" />
             <meta name="author" content="root" >
             <meta name="robots" content="all">
             <meta name="description" content="Scifi strategic space game with modular builder set into deep universe.">
             <meta name="keywords" content="scifi,game,space,universe,action,strategy,ships">
             <!-- css import -->
 
-            <link rel="stylesheet" href= "{$basePath}/css/main2.css"> 
-   
+            <link rel="stylesheet" href= "{$basePath}/css/main2.css">
             <link rel="stylesheet" href= "{$basePath}/css/footer.css">
-            <link rel="stylesheet" href= "{$basePath}/css/bootstrap-theme.min.css"> 
-            <link rel="stylesheet" href= "{$basePath}/css/bootstrap.min.css"> 
+            <link rel="stylesheet" href= "{$basePath}/css/bootstrap-theme.min.css">
+            <link rel="stylesheet" href= "{$basePath}/css/bootstrap.min.css">
             <title>Azulgar | v 2.0</title>
         </head>
         {include content}
         {block scripts}
-        <script type='text/javascript' src="http://code.jquery.com/jquery-1.9.1.js"></script>
-        <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
-        <script src="https://nette.github.io/resources/js/netteForms.min.js"></script>
-        <script src="{$basePath}/js/main.js"></script>
+            <script src="http://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+            <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js" integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E=" crossorigin="anonymous"></script>
+            <script src="https://nette.github.io/resources/js/netteForms.min.js"></script>
+            <script src="{$basePath}/js/main.js"></script>
         {/block}
     </body>
 </html>
