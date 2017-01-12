@@ -26,18 +26,19 @@ class HomepagePresenter extends BasePresenter
 
 	public function renderDefault()
 	{
-		//$this->generateKeys(20,"Sept 2017 Giveaway - Doupe.cz"); // generování cd klíčů
+		/*
+		$this->generateKeys(20,"Sept 2017 Giveaway - Doupe.cz"); // generování cd klíčů
 
 		$dao = $this->EntityManager->getRepository(TblKey::class);
 		$user = $this->EntityManager->getRepository(TblUser::class);
-		/*
+
 		$group = $this->EntityManager->getRepository(TblKeyGroup::class);
 		$a = $dao->findOneBy(array('used_by' => 2));
 		$kgn = $group->findOneBy(['id' => $a->keyGroup]);
-		*/
+
 		$this->template->tbl_key = $dao->findAll();
 		$this->template->tbl_user = $user->findAll();
-
+		*/
 	}
 
 
@@ -46,6 +47,7 @@ class HomepagePresenter extends BasePresenter
 	 * @param $Name
 	 * @return int
 	 */
+	/*
 	public function generateKeys($Number,$Name){
 		$group = new TblKeyGroup();
 		$group->createdBy = 1; // napojit na aktuáně přihlášeného uživatele!
@@ -65,5 +67,5 @@ class HomepagePresenter extends BasePresenter
 		$this->EntityManager->flush();
 		return 1;
 	}
-
+	*/
 }
