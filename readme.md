@@ -4,13 +4,12 @@
 
 Features:
 
-  - User profiles
-  - Blog module
+  - Core module
   - Keygen extention (generate, authorizate, modify)
-  - Users manipulation
-  - Steam authorization
 
-[Legends of Azulgar](https://azulgar.com/)
+
+
+This project will replace actual LoA website [Here](https://azulgar.com/).
 
 
 # Installation
@@ -28,6 +27,10 @@ Features:
  - Implement users restrictions
  - Profile page
  - Blog administration
+ - Steam authorization
+ - Users manipulation
+ - User profiles
+ - Blog module
  - Connect all modules 
  - testing...
  - testing......
