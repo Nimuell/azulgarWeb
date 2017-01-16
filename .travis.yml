@@ -8,14 +8,45 @@ php:
   - hhvm
   - hhvm-nightly
 
+env:
+  matrix:
+    - SYMFONY=3.* NETTE=nette-2.4-dev
+    - SYMFONY=3.* NETTE=nette-2.4
+    - SYMFONY=2.* NETTE=nette-2.4
+    - SYMFONY=3.* NETTE=nette-2.3
+    - SYMFONY=2.* NETTE=nette-2.3
+
 matrix:
-  allow_failures:
+  include:
+    - php: 5.6
+      env: SYMFONY=3.* NETTE=nette-2.4 COMPOSER_EXTRA_ARGS="--prefer-lowest --prefer-stable"
+    - php: 5.6
+      env: SYMFONY=3.* NETTE=nette-2.3 COMPOSER_EXTRA_ARGS="--prefer-lowest --prefer-stable"
+    - php: 5.4
+      env: SYMFONY=2.* NETTE=nette-2.3
+    - php: 5.5
+      env: SYMFONY=2.* NETTE=nette-2.3 COMPOSER_EXTRA_ARGS="--prefer-lowest --prefer-stable"
     - php: 7.0
+      env: SYMFONY=3.* NETTE=nette-2.4 COVERAGE="--coverage ./coverage.xml --coverage-src ./src" TESTER_RUNTIME="phpdbg"
+  exclude:
+    - php: 5.5
+      env: SYMFONY=3.* NETTE=nette-2.4-dev
+    - php: 5.5
+      env: SYMFONY=3.* NETTE=nette-2.4
+    - php: 5.5
+      env: SYMFONY=2.* NETTE=nette-2.4
+  allow_failures:
     - php: hhvm
-    - php: hhvm-nightly
+    - php: 7.0
+      env: SYMFONY=3.* NETTE=nette-2.4 COVERAGE="--coverage ./coverage.xml --coverage-src ./src" TESTER_RUNTIME="phpdbg"
 
 before_install:
-  - composer self-update
+  - if [[ $SYMFONY = '2.*' ]]; then composer require --no-update symfony/event-dispatcher:^2.8; fi
+  - if [[ $SYMFONY = '3.*' ]]; then composer require --no-update symfony/event-dispatcher:^3.0; fi
+  - travis_retry composer self-update
+  - wget -O /tmp/composer-nette https://raw.githubusercontent.com/Kdyby/TesterExtras/master/bin/composer-nette.php
+  - php /tmp/composer-nette
+
 
 before_script:
   - composer install --no-interaction --prefer-source --dev
