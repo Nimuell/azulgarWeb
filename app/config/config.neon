@@ -16,6 +16,8 @@ session:
 
 
 services:
+	- App\dbHandler
+	- App\steamAuth
 	- App\Model\UserManager
 	- App\Forms\FormFactory
 	- App\Forms\SignInFormFactory

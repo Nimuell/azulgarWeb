@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://lusorion.com/loa2/</loc>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/?C=N;O=D</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/?C=M;O=A</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/?C=S;O=A</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/?C=D;O=A</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/azulgarWeb/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/bin/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/composer.lock</loc>
+  <lastmod>2017-01-12T21:05:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/nbproject/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/tests/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/?C=N;O=A</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/?C=M;O=D</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/?C=S;O=D</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/?C=D;O=D</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/azulgarWeb/?C=N;O=D</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/azulgarWeb/?C=M;O=A</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/azulgarWeb/?C=S;O=A</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/azulgarWeb/?C=D;O=A</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/azulgarWeb/bin/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/azulgarWeb/composer.lock</loc>
+  <lastmod>2016-12-01T22:05:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/azulgarWeb/config.neon</loc>
+  <lastmod>2016-12-01T22:05:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/azulgarWeb/nbproject/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/azulgarWeb/tests/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/azulgarWeb/www/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/bin/?C=N;O=D</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/bin/?C=M;O=A</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/bin/?C=S;O=A</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/bin/?C=D;O=A</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/bin/create-user.php</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/nbproject/?C=N;O=D</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/nbproject/?C=M;O=A</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/nbproject/?C=S;O=A</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/nbproject/?C=D;O=A</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/nbproject/private/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/nbproject/project.properties</loc>
+  <lastmod>2016-10-24T19:22:40+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/tests/?C=N;O=D</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/tests/?C=M;O=A</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/tests/?C=S;O=A</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/tests/?C=D;O=A</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/tests/ExampleTest.phpt</loc>
+  <lastmod>2016-07-31T17:46:20+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/tests/bootstrap.php</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/azulgarWeb/?C=N;O=A</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/azulgarWeb/?C=M;O=D</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/azulgarWeb/?C=S;O=D</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/azulgarWeb/?C=D;O=D</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/azulgarWeb/bin/?C=N;O=D</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/azulgarWeb/bin/?C=M;O=A</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/azulgarWeb/bin/?C=S;O=A</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/azulgarWeb/bin/?C=D;O=A</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/azulgarWeb/bin/create-user.php</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/azulgarWeb/nbproject/?C=N;O=D</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/azulgarWeb/nbproject/?C=M;O=A</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/azulgarWeb/nbproject/?C=S;O=A</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/azulgarWeb/nbproject/?C=D;O=A</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/azulgarWeb/nbproject/project.properties</loc>
+  <lastmod>2016-12-01T22:05:56+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/azulgarWeb/tests/?C=N;O=D</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/azulgarWeb/tests/?C=M;O=A</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/azulgarWeb/tests/?C=S;O=A</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/azulgarWeb/tests/?C=D;O=A</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/azulgarWeb/tests/ExampleTest.phpt</loc>
+  <lastmod>2016-12-01T22:05:56+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/azulgarWeb/tests/bootstrap.php</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/bin/?C=N;O=A</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/bin/?C=M;O=D</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/bin/?C=S;O=D</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/bin/?C=D;O=D</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/nbproject/?C=N;O=A</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/nbproject/?C=M;O=D</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/nbproject/?C=S;O=D</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/nbproject/?C=D;O=D</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/nbproject/private/?C=N;O=D</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/nbproject/private/?C=M;O=A</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/nbproject/private/?C=S;O=A</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/nbproject/private/?C=D;O=A</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/nbproject/private/private.properties</loc>
+  <lastmod>2016-10-24T19:22:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/tests/?C=N;O=A</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/tests/?C=M;O=D</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/tests/?C=S;O=D</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/tests/?C=D;O=D</loc>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/azulgarWeb/bin/?C=N;O=A</loc>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/azulgarWeb/bin/?C=M;O=D</loc>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/azulgarWeb/bin/?C=S;O=D</loc>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/azulgarWeb/bin/?C=D;O=D</loc>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/azulgarWeb/nbproject/?C=N;O=A</loc>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/azulgarWeb/nbproject/?C=M;O=D</loc>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/azulgarWeb/nbproject/?C=S;O=D</loc>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/azulgarWeb/nbproject/?C=D;O=D</loc>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/azulgarWeb/tests/?C=N;O=A</loc>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/azulgarWeb/tests/?C=M;O=D</loc>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/azulgarWeb/tests/?C=S;O=D</loc>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/azulgarWeb/tests/?C=D;O=D</loc>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/nbproject/private/?C=N;O=A</loc>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/nbproject/private/?C=M;O=D</loc>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/nbproject/private/?C=S;O=D</loc>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://lusorion.com/loa2/nbproject/private/?C=D;O=D</loc>
+  <priority>0.41</priority>
+</url>
+</urlset>
