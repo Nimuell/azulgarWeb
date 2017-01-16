@@ -2,8 +2,10 @@
 
 namespace App\Presenters;
 
+use App\steamAuth;
 use App\TblUser;
 use App\TblKey;
+use App\TblKeyGroup;
 use Doctrine\ORM\EntityManager;
 use Nette,
 	App\Model;
@@ -26,8 +28,8 @@ class HomepagePresenter extends BasePresenter
 
 	public function renderDefault()
 	{
-		/*
-		$this->generateKeys(20,"Sept 2017 Giveaway - Doupe.cz"); // generování cd klíčů
+		//var_dump(steamAuth::genUrl()); // vygenerování odkazu pro steam auth...
+		//$this->generateKeys(20,"Sept 2017 Giveaway - Doupe.cz"); // generování cd klíčů
 
 		$dao = $this->EntityManager->getRepository(TblKey::class);
 		$user = $this->EntityManager->getRepository(TblUser::class);
@@ -38,7 +40,7 @@ class HomepagePresenter extends BasePresenter
 
 		$this->template->tbl_key = $dao->findAll();
 		$this->template->tbl_user = $user->findAll();
-		*/
+		$this->template->link = "";
 	}
 
 
@@ -47,7 +49,6 @@ class HomepagePresenter extends BasePresenter
 	 * @param $Name
 	 * @return int
 	 */
-	/*
 	public function generateKeys($Number,$Name){
 		$group = new TblKeyGroup();
 		$group->createdBy = 1; // napojit na aktuáně přihlášeného uživatele!
@@ -67,5 +68,5 @@ class HomepagePresenter extends BasePresenter
 		$this->EntityManager->flush();
 		return 1;
 	}
-	*/
+
 }
